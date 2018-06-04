@@ -90,7 +90,7 @@ header {
   left: 0;
   height: 50px;
   width: 100%;
-  background: #4e6361;
+  background: #000000;
   z-index: 3;
   /* Force Hardware Acceleration in WebKit */
   -webkit-transform: translateZ(0);

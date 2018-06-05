@@ -308,6 +308,7 @@ header.is-fixed {
   }
 }
 #cd-lateral-nav.lateral-menu-is-open {
+  background: #303033 url("http://subtlepatterns.com/patterns/broken_noise.png");
   -webkit-transform: translateX(0);
   -moz-transform: translateX(0);
   -ms-transform: translateX(0);

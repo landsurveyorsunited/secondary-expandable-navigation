@@ -78,6 +78,7 @@ Main components
   -ms-transform: translateX(-260px);
   -o-transform: translateX(-260px);
   transform: translateX(-260px);
+  background: #303033 url("http://subtlepatterns.com/patterns/broken_noise.png");
 }
 @media only screen and (min-width: 768px) {
   .cd-main-content {
@@ -89,7 +90,7 @@ header {
   position: absolute;
   top: 0;
   left: 0;
-  height: 50px;
+  height: 30px;
   width: 100%;
   background: #000000;
   z-index: 3;

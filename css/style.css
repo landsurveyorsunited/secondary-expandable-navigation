@@ -29,7 +29,7 @@ body {
 a {
   color: #6cac70;
   text-decoration: none;
-  font-size: .9em;
+  font-size: .9em!important;
 }
 
 /* -------------------------------- 
@@ -170,6 +170,7 @@ header.is-fixed {
 }
 
 #cd-menu-trigger {
+  background: #303033 url("http://subtlepatterns.com/patterns/broken_noise.png");
   position: absolute;
   right: 0;
   top: 0;
@@ -308,7 +309,7 @@ header.is-fixed {
   }
 }
 #cd-lateral-nav.lateral-menu-is-open {
-  background: #303033 url("http://subtlepatterns.com/patterns/broken_noise.png");
+ 
   -webkit-transform: translateX(0);
   -moz-transform: translateX(0);
   -ms-transform: translateX(0);

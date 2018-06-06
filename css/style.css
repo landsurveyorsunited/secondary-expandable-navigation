@@ -125,6 +125,7 @@ header.is-fixed {
   display: block;
   float: left;
   margin: 12px 0 0 20px;
+  background: #303033 url("http://subtlepatterns.com/patterns/broken_noise.png");
 }
 #cd-logo img {
   display: block;
@@ -184,7 +185,8 @@ header.is-fixed {
 #cd-menu-trigger .cd-menu-text {
   height: 100%;
   text-transform: uppercase;
-  color: #a12712;
+  color: #fff;
+  background: #303033 url("http://subtlepatterns.com/patterns/broken_noise.png");
   font-weight: 600;
   display: none;
 }

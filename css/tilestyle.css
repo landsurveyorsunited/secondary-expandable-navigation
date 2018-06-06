@@ -67,6 +67,7 @@ body {
   bottom: 0;
   height: auto;
   left: 0;
+  color:#fff!important;
   width: 100%;
   font-size: 100%;
   transition: all 0.25s ease-in-out;

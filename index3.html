@@ -16,11 +16,75 @@
 		color:#fff;
   vertical-align: middle;
   align-items: center;
-}</style>
+}.toggle-box {
+  display: none;
+}
+
+.toggle-box + label {
+  cursor: pointer;
+  display: block;
+  font-weight: bold;
+  line-height: 31px;
+  margin-bottom: 5px;
+  color:black;
+}
+
+.toggle-box + label + div {
+  display: none;
+  margin-bottom: 10px;
+}
+
+.toggle-box:checked + label + div {
+  display: block;
+}
+
+.toggle-box + label:before {
+  background-color: #a12712;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  color: #FFFFFF;
+  content: "+";
+  display: block;
+  float: left;
+  font-weight: bold;
+  height: 30px;
+  line-height: 30px;
+  margin-right: 5px;
+  text-align: center;
+  width: 30px;
+}
+
+.toggle-box:checked + label:before {
+  content: "\2212";
+}
+.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
 	<title>Land Surveyors United Community</title>
 </head>
 <body>
-	
+	<input class="toggle-box" id="header1" type="checkbox" >
+<label for="header1">Latest Social Media Posts from Land Surveyors United</label>
+<div><!-- Place <div> tag where you want the feed to appear -->
+<div id="curator-feed-land-surveyors-united"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a></div>
+<!-- The Javascript can be moved to the end of the html page before the </body> tag -->
+<script type="text/javascript">
+/* curator-feed-land-surveyors-united */
+(function(){
+var i, e, d = document, s = "script";i = d.createElement("script");i.async = 1;
+i.src = "https://cdn.curator.io/published/73aec07f-af07-47de-98e4-b88948ca7730.js";
+e = d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
+})();
+</script></div>
+<input class="toggle-box" id="header2" type="checkbox" >
+<label for="header2">Introduce Yourself inside Your Location Based Forum</label>
+<div><div class='embed-container'><iframe src='https://view-awesome-table.com/-L8sFT9aUtB10a78mljh/view' style='border:0'></iframe></div></div>
+<input class="toggle-box" id="header3" type="checkbox" >
+<label for="header3">Get Ready for International Surveyors Week 2018</label>
+<div><div class='embed-container'><iframe src='https://view-awesome-table.com/-L8DzdKgRtnQ2u6zAxmC/view' style='border:0'></iframe></div></div>
+<input class="toggle-box" id="header4" type="checkbox" >
+<label for="header4">Become a Local SURVambassador for Your Location</label>
+<div><div class='embed-container'><iframe src='http://form.jotform.co/form/31537404029853' style='border:0'></iframe></div></div>
+	<hr>
 <div class="grid-container">
 <div><gcse:searchresults></gcse:searchresults></div>
   <div class="grid-item large floatLeft">
@@ -208,17 +272,7 @@
       <button>Read More</button>
     </div>
   </div>
-	  <!-- Place <div> tag where you want the feed to appear -->
-<div id="curator-feed-land-surveyors-united"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a></div>
-<!-- The Javascript can be moved to the end of the html page before the </body> tag -->
-<script type="text/javascript">
-/* curator-feed-land-surveyors-united */
-(function(){
-var i, e, d = document, s = "script";i = d.createElement("script");i.async = 1;
-i.src = "https://cdn.curator.io/published/73aec07f-af07-47de-98e4-b88948ca7730.js";
-e = d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
-})();
-</script>
+	  
 	  <footer class="row" role="contentinfo">
     <div class="inner-wrap">
       <p><small><p class="left">© 2018 &nbsp; © Created by<span>&nbsp;</span><a href="http://landsurveyorsunited.com/">Land Surveyors United</a><span>&nbsp;</span>&nbsp; Powered by</p>

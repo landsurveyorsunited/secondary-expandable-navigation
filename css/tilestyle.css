@@ -83,8 +83,10 @@ body {
 
 .grid-item .title {
   margin-top: 5px;
-  font-size: 15px;
+  font-size: 18px;
   padding: 1%;
+  font-weight:600;
+  color:#fff!important;
 }
 
 .grid-item .date {

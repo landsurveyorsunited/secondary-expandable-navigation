@@ -78,7 +78,7 @@ Main components
   -ms-transform: translateX(-260px);
   -o-transform: translateX(-260px);
   transform: translateX(-260px);
-  background: #303033 url("http://subtlepatterns.com/patterns/broken_noise.png");
+  background: #303033 url("https://landsurveyorsunited.github.io/x-navigation/img/bnoise.png");
 }
 @media only screen and (min-width: 768px) {
   .cd-main-content {
@@ -132,7 +132,7 @@ header.is-fixed {
   box-shadow: 0px 3px 3px rgba(0,0,0,0.2);
 -moz-box-shadow: 0px 3px 3px rgba(0,0,0,0.2);
 -webkit-box-shadow: 0px 3px 3px rgba(0,0,0,0.2);
-  background: #303033 url("http://subtlepatterns.com/patterns/broken_noise.png")!important;
+  background: #303033 url("https://landsurveyorsunited.github.io/x-navigation/img/bnoise.png")!important;
 }
 #cd-logo img {
   display: block;
@@ -159,12 +159,12 @@ header.is-fixed {
 #cd-top-nav li {
   display: inline-block;
   margin-right: 0.6em;
-  background: #303033 url("http://subtlepatterns.com/patterns/broken_noise.png");
+  background: #303033 url("https://landsurveyorsunited.github.io/x-navigation/img/bnoise.png");
 }
 #cd-top-nav li:hover {
   display: inline-block;
   margin-right: 0.6em;
-  background: #a12712 url("http://subtlepatterns.com/patterns/broken_noise.png");
+  background: #a12712 url("https://landsurveyorsunited.github.io/x-navigation/img/bnoise.png");
 }
 #cd-top-nav a {
   display: inline-block;
@@ -186,7 +186,7 @@ header.is-fixed {
 }
 
 #cd-menu-trigger {
-  background: #303033 url("http://subtlepatterns.com/patterns/broken_noise.png");
+  background: #303033 url("https://landsurveyorsunited.github.io/x-navigation/img/bnoise.png");
   position: absolute;
   right: 0;
   top: 0;
@@ -198,7 +198,7 @@ header.is-fixed {
   height: 100%;
   text-transform: uppercase;
   color: #000;
-  background: #303033 url("http://subtlepatterns.com/patterns/broken_noise.png")!important;
+  background: #303033 url("https://landsurveyorsunited.github.io/x-navigation/img/bnoise.png")!important;
   font-weight: 600;
   display: none;
 }
@@ -277,7 +277,7 @@ header.is-fixed {
 }
 
 #cd-lateral-nav {
-  background: #303033 url("http://subtlepatterns.com/patterns/broken_noise.png");
+  background: #303033 url("https://landsurveyorsunited.github.io/x-navigation/img/bnoise.png");
   position: fixed;
   height: 100%;
   right: 0;
@@ -362,7 +362,7 @@ header.is-fixed {
   -o-transform: translateY(-50%);
   transform: translateY(-50%);
   right: 1em;
-  background: url("../img/cd-arrow.svg") no-repeat center center;
+  background: url("https://landsurveyorsunited.github.io/x-navigation/img/cd-arrow.svg") no-repeat center center;
   background-size: 8px 11px;
   -webkit-transition-property: -webkit-transform;
   -moz-transition-property: -moz-transform;
@@ -392,7 +392,7 @@ header.is-fixed {
   width: 32px;
   float: left;
   padding: 0;
-  background-image: url("../img/cd-socials.svg");
+  background-image: url("https://landsurveyorsunited.github.io/x-navigation/img/cd-socials.svg");
   background-repeat: no-repeat;
   background-size: 128px 64px;
   background-color: #FFF;

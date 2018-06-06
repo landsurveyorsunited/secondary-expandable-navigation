@@ -179,12 +179,12 @@ header.is-fixed {
   top: 0;
   height: 100%;
   width: 50px;
-  background-color: #64807d;
+  background-color: #a12712;
 }
 #cd-menu-trigger .cd-menu-text {
   height: 100%;
   text-transform: uppercase;
-  color: #FFF;
+  color: #a12712;
   font-weight: 600;
   display: none;
 }

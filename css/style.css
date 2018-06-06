@@ -154,6 +154,11 @@ header.is-fixed {
   margin-right: 0.6em;
   background: #303033 url("http://subtlepatterns.com/patterns/broken_noise.png");
 }
+#cd-top-nav li:hover {
+  display: inline-block;
+  margin-right: 0.6em;
+  background: #a12712 url("http://subtlepatterns.com/patterns/broken_noise.png");
+}
 #cd-top-nav a {
   display: inline-block;
   padding: .5em;

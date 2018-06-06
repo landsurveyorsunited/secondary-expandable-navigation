@@ -125,6 +125,13 @@ header.is-fixed {
   display: block;
   float: left;
   margin: 12px 0 0 20px;
+  -moz-border-radius: 10px;
+   -webkit-border-radius: 10px;
+   border-radius: 10px; /* future proofing */
+   -khtml-border-radius: 10px; /* for old Konqueror browsers */
+  box-shadow: 0px 3px 3px rgba(0,0,0,0.2);
+-moz-box-shadow: 0px 3px 3px rgba(0,0,0,0.2);
+-webkit-box-shadow: 0px 3px 3px rgba(0,0,0,0.2);
   background: #303033 url("http://subtlepatterns.com/patterns/broken_noise.png")!important;
 }
 #cd-logo img {
@@ -190,7 +197,7 @@ header.is-fixed {
 #cd-menu-trigger .cd-menu-text {
   height: 100%;
   text-transform: uppercase;
-  color: #fff;
+  color: #000;
   background: #303033 url("http://subtlepatterns.com/patterns/broken_noise.png")!important;
   font-weight: 600;
   display: none;

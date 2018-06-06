@@ -150,7 +150,8 @@ header.is-fixed {
 }
 #cd-top-nav li {
   display: inline-block;
-  margin-right: 1em;
+  margin-right: 0.6em;
+  background: #303033 url("http://subtlepatterns.com/patterns/broken_noise.png");
 }
 #cd-top-nav a {
   display: inline-block;
